@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Investimentos" />
+        <module name="Eureka" />
+        <module name="CadastroCliente" />
+        <module name="CadastroContaCorrente" />
+        <module name="MovimentacaoConta" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CadastroCliente" target="11" />
+      <module name="CadastroContaCorrente" target="11" />
+      <module name="Eureka" target="11" />
+      <module name="Investimentos" target="11" />
+      <module name="MovimentacaoConta" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CadastroCliente" options="-parameters" />
+      <module name="CadastroContaCorrente" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="Investimentos" options="-parameters" />
+      <module name="MovimentacaoConta" options="-parameters" />
+    </option>
+  </component>
+</project>
