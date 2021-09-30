@@ -15,6 +15,24 @@
               <p id="description" class="description text-center">O valor da recarga será descontado automaticamente do seu saldo</p>
             </header>
             <form id="survey-form">
+              <div class="form-group">
+                <label id="celular-label" for="celular">Qual a sua operadora?</label>
+                <input
+                  type="text"
+                  name="celular"
+                  id="celular"
+                  class="form-control"
+                  placeholder="Digite a sua operadora"
+                  list="operadoras"
+                  required
+                />
+                <datalist id="operadoras">
+                  <option value="Claro">
+                  <option value="Vivo">
+                  <option value="Tim">
+                  <option value="Oi">
+                </datalist>
+              </div>
                 <div class="form-group">
                   <label id="celular-label" for="celular">Digite o seu número de celular:</label>
                   <input

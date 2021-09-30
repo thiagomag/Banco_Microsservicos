@@ -18,7 +18,7 @@ body::before {
   width: 100%;
   z-index: -1;
   background: linear-gradient(
-      115deg,
+      150deg,
       rgba(17, 17, 2, 0.8),
       rgba(250, 11, 11, 0.7)
     );
@@ -78,7 +78,7 @@ button {
 
 .header {
   padding: 0 0.625rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
 }
 
 .description {
@@ -99,13 +99,13 @@ button {
 
 form {
   background: var(--color-darkblue-alpha);
-  padding: 2.5rem 0.625rem;
+  padding: 2rem 0.625rem;
   border-radius: 0.25rem;
 }
 
 @media (min-width: 480px) {
   form {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }
 

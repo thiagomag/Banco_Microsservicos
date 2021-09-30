@@ -113,6 +113,10 @@
       margin: 0 1rem;
     }
   }
+
+  .nav-list li {
+    margin: 2px;
+  }
   
   .nav-list a {
     display: block;
@@ -121,7 +125,9 @@
   }
   
   .nav-list a:hover {
-    background: var(--light-red);
+    background: var(--main-gray);
+    font-size: 2.4rem;
+    transition: 0.5s;
   }
   
   /* Inicio */

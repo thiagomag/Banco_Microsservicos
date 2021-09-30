@@ -18,9 +18,9 @@ body::before {
   width: 100%;
   z-index: -1;
   background: linear-gradient(
-      115deg,
-      rgba(17, 17, 2, 0.8),
-      rgba(250, 11, 11, 0.7)
+      0deg,
+      rgba(14, 14, 1, 0.8),
+      rgba(228, 49, 49, 0.7)
     );
 }
 
@@ -84,6 +84,7 @@ button {
 .description {
   font-style: italic;
   font-weight: 200;
+  margin-top: 2rem;
 }
 
 .clue {
@@ -112,6 +113,7 @@ form {
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
+  padding-top: 1.5rem;
 }
 
 .form-control {
@@ -132,7 +134,6 @@ form {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
 }
-
 
 .input-textarea {
   min-height: 120px;

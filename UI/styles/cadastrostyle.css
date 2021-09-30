@@ -18,9 +18,10 @@ body::before {
   width: 100%;
   z-index: -1;
   background: linear-gradient(
-      115deg,
+      230deg,
       rgba(17, 17, 2, 0.8),
-      rgba(250, 11, 11, 0.7)
+      rgba(104, 76, 76, 0.685),
+      rgba(200,50,50,0.7)
     );
 }
 
@@ -102,6 +103,21 @@ form {
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
+
+.form-radio {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.form-radio input {
+  display: block;
+  width: 10%;
+  height: 1.5rem;
+  padding: 0.375rem 0.75rem;
+}
+
 
 @media (min-width: 480px) {
   form {

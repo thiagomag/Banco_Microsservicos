@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/investimentostyle.css">
+    <title>Investimento</title>
+</head>
+<body>
+    <section id="login" class="login-section">
+        <div class="container">
+            <header class="header">
+              <h1 id="title" class="text-center">Invista agora!</h1>
+            </header>
+            <form id="survey-form">
+                <label id="investimento-label" for="investimento">Selecione o investimento:</label>
+                <div class="form-radio">
+                    <input
+                      type="radio"
+                      name="investimento"
+                      id="investimento"
+                      required
+                    />
+                    <label for="ruim">Investimento ruim que rende apenas 1%.</label>
+                </div>
+                <div class="form-radio">
+                    <input
+                      type="radio"
+                      name="investimento"
+                      id="investimento"
+                      required
+                    />         
+                    <label for="bom">Investimento bom que rende 10%.</label>           
+                </div>
+                <div class="form-group">
+                    <label id="valor-label" for="valor">Valor que deseja investir:</label>
+                    <input
+                      type="number"
+                      name="valor"
+                      id="valor"
+                      class="form-control"
+                      placeholder="Digite o valor"
+                      required
+                    />
+                </div>
+                  <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                      Invista agora!
+                    </button>
+                  </div>
+            </form>
+            <p id="description" class="description text-center">
+                *OBS: O Investimento não será feito caso o seu saldo não seja o suficiente.
+            </p>
+          </div>         
+      </section>
+      
+</body>
+</html>

@@ -78,7 +78,7 @@ button {
 
 .header {
   padding: 0 0.625rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
 }
 
 .description {
@@ -99,13 +99,13 @@ button {
 
 form {
   background: var(--color-darkblue-alpha);
-  padding: 2.5rem 0.625rem;
+  padding: 2rem 0.625rem;
   border-radius: 0.25rem;
 }
 
 @media (min-width: 480px) {
   form {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }
 
@@ -149,4 +149,12 @@ form {
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+}
+
+.submit-button:hover {
+  transition: 0.35s;
+  background-color: #ced4da;
+  color: #495057;
+  font-size: 1.2rem;
+  border-radius: 20px;
 }
