@@ -12,13 +12,15 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class TedDTO {
     private String numeroConta;
-    private Long agencia;
+    private String contaDestino;
+    private Long agenciaDestino;
     private BigDecimal valor;
 
     public static Ted convert(TedDTO tedDTO) {
         Ted ted = new Ted();
         ted.setNumeroConta(tedDTO.getNumeroConta());
-        ted.setAgencia(tedDTO.getAgencia());
+        ted.setContaDestino(tedDTO.getContaDestino());
+        ted.setAgenciaDestino(tedDTO.getAgenciaDestino());
         ted.setValor(tedDTO.getValor());
         return ted;
     }

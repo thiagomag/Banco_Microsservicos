@@ -13,8 +13,15 @@ public class RecargaService {
     private final RecargaRepository recargaRepository;
 
     public ResponseEntity<Recarga> realizarRecarga(RecargaDTO recargaDTO) {
-        var recarga = RecargaDTO.convert(recargaDTO);
-        recargaRepository.save(recarga);
-        return ResponseEntity.ok(recarga);
+        if (movimentacaoConta(recargaDTO)){
+            var recarga = RecargaDTO.convert(recargaDTO);
+            recargaRepository.save(recarga);
+            return ResponseEntity.ok(recarga);
+        }
+        return null;
+    }
+
+    public boolean movimentacaoConta(RecargaDTO recargaDTO){
+        return true;
     }
 }

@@ -12,13 +12,15 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class DocDTO {
     private String numeroConta;
-    private Long agencia;
+    private String contaDestino;
+    private Long agenciaDestino;
     private BigDecimal valor;
 
     public static Doc convert(DocDTO docDTO) {
         Doc doc = new Doc();
         doc.setNumeroConta(docDTO.getNumeroConta());
-        doc.setAgencia(docDTO.getAgencia());
+        doc.setContaDestino(docDTO.getContaDestino());
+        doc.setAgenciaDestino(docDTO.getAgenciaDestino());
         doc.setValor(docDTO.getValor());
         return doc;
     }

@@ -1,7 +1,7 @@
 package br.com.thiago.recargacel.repository;
 
 import br.com.thiago.recargacel.entity.Recarga;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface RecargaRepository extends JpaRepository<Recarga, Long> {
+public interface RecargaRepository extends MongoRepository<Recarga, Long> {
 }

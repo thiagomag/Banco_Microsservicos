@@ -13,8 +13,15 @@ public class TedService {
     private final TedRepository tedRepository;
 
     public ResponseEntity<Ted> realizarTed(TedDTO tedDTO) {
-        var ted = TedDTO.convert(tedDTO);
-        tedRepository.save(ted);
-        return ResponseEntity.ok(ted);
+        if (movimentacaoConta(tedDTO)){
+            var ted = TedDTO.convert(tedDTO);
+            tedRepository.save(ted);
+            return ResponseEntity.ok(ted);
+        }
+        return null;
+    }
+
+    public boolean movimentacaoConta(TedDTO tedDTO){
+        return true;
     }
 }
