@@ -17,4 +17,8 @@ public class PixService {
         pixRepository.save(pix);
         return ResponseEntity.ok(pix);
     }
+
+    public boolean movimentacaoConta(PixDTO pixDTO){
+        return true;
+    }
 }

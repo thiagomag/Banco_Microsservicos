@@ -1,7 +1,7 @@
 package br.com.thiago.transferencia.repository;
 
 import br.com.thiago.transferencia.entity.Pix;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface PixRepository extends JpaRepository<Pix, Long> {
+public interface PixRepository extends MongoRepository<Pix, Long> {
 }

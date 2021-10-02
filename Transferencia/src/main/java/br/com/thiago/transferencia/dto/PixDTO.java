@@ -11,11 +11,13 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PixDTO {
+    private String numeroConta;
     private String chavePix;
     private BigDecimal valor;
 
     public static Pix convert(PixDTO pixDTO) {
         Pix pix = new Pix();
+        pix.setNumeroConta(pixDTO.getNumeroConta());
         pix.setChavePix(pixDTO.getChavePix());
         pix.setValor(pixDTO.getValor());
         return pix;

@@ -17,4 +17,8 @@ public class DocService {
         docRepository.save(doc);
         return ResponseEntity.ok(doc);
     }
+
+    public boolean movimentacaoConta(DocDTO docDTO){
+        return true;
+    }
 }

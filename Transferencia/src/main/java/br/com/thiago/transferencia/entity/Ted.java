@@ -1,23 +1,23 @@
 package br.com.thiago.transferencia.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import java.math.BigDecimal;
 
-@Entity
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Ted {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String numeroTed;
     private String numeroConta;
-    private Long agencia;
+    private String contaDestino;
+    private Long agenciaDestino;
     private BigDecimal valor;
     private BigDecimal taxa = BigDecimal.valueOf(8.50);
 }
