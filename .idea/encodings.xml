@@ -6,5 +6,8 @@
     <file url="file://$PROJECT_DIR$/Eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Investimentos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MovimentacaoConta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RecargaCel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Transferencia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sendEmail/src/main/java" charset="UTF-8" />
   </component>
 </project>

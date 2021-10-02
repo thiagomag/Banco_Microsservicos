@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/Eureka/Eureka.iml" filepath="$PROJECT_DIR$/Eureka/Eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/Investimentos/Investimentos.iml" filepath="$PROJECT_DIR$/Investimentos/Investimentos.iml" />
       <module fileurl="file://$PROJECT_DIR$/MovimentacaoConta/MovimentacaoConta.iml" filepath="$PROJECT_DIR$/MovimentacaoConta/MovimentacaoConta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecargaCel/RecargaCel.iml" filepath="$PROJECT_DIR$/RecargaCel/RecargaCel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Transferencia/Transferencia.iml" filepath="$PROJECT_DIR$/Transferencia/Transferencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sendEmail/sendEmail.iml" filepath="$PROJECT_DIR$/sendEmail/sendEmail.iml" />
     </modules>
   </component>
 </project>

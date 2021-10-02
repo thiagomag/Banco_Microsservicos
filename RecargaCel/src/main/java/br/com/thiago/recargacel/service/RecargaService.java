@@ -1,5 +1,6 @@
 package br.com.thiago.recargacel.service;
 
+import br.com.thiago.movimentacaoconta.config.MovimentacaoFeignClient;
 import br.com.thiago.recargacel.dto.RecargaDTO;
 import br.com.thiago.recargacel.entity.Recarga;
 import br.com.thiago.recargacel.repository.RecargaRepository;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class RecargaService {
     private final RecargaRepository recargaRepository;
+    private final MovimentacaoFeignClient movimentacaoFeignClient;
 
     public ResponseEntity<Recarga> realizarRecarga(RecargaDTO recargaDTO) {
         if (movimentacaoConta(recargaDTO)){
@@ -22,6 +24,6 @@ public class RecargaService {
     }
 
     public boolean movimentacaoConta(RecargaDTO recargaDTO){
-        return true;
+        return movimentacaoFeignClient.sacar(recargaDTO.getValor(), recargaDTO.getNumeroConta()) != null;
     }
 }

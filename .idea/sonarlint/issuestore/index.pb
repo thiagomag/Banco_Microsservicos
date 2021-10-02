@@ -21,14 +21,8 @@ _CadastroCliente/src/main/java/br/com/thiago/cadastrocliente/repository/ClienteP
 _CadastroCliente/src/main/java/br/com/thiago/cadastrocliente/repository/ClientePFRepository.java,8\e\8e1e822c381d62edfcc329612b65c407d7e3fe0c
 ‡
 WCadastroCliente/src/main/java/br/com/thiago/cadastrocliente/service/ClienteService.java,1\8\18748d37550d459c77d555b35cd244f2c82eee1d
-“
-cCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/config/SpringFoxConfig.java,0\f\0f3b4e7e235729419b70c916e034b46b58947136
-M
-CadastroContaCorrente/pom.xml,7\5\75a8edfd1bddc8a9c258a25eb9371c49e6f8ef78
 Ÿ
 oCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/repository/ContaCorrenteRepository.java,6\5\653c7aa7ea0ca5eeb89dac47d6f37e8c19cfcab4
-™
-iCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/service/ContaCorrenteService.java,4\4\448bfda4d5aa7bff1be42d59951dcd1d636149b9
 ‹
 [MovimentacaoConta/src/main/java/br/com/thiago/movimentacaoconta/config/SpringFoxConfig.java,d\1\d1df54e676c6910608a448d83ba22261e1cba982
 ‰

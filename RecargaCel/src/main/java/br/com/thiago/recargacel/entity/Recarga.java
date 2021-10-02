@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 public class Recarga {
     @Id
     private String numeroRecarga;
+    private String numeroConta;
     private String numeroCel;
     private Operadora operadora;
     private BigDecimal valor;

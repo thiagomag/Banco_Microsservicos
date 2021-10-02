@@ -12,12 +12,14 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecargaDTO {
+    private String numeroConta;
     private String numeroCel;
     private Operadora operadora;
     private BigDecimal valor;
 
     public static Recarga convert(RecargaDTO recargaDTO){
         Recarga recarga = new Recarga();
+        recarga.setNumeroConta(recargaDTO.numeroConta);
         recarga.setNumeroCel(recargaDTO.numeroCel);
         recarga.setOperadora(recargaDTO.getOperadora());
         recarga.setValor(recargaDTO.getValor());

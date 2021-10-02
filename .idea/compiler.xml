@@ -7,19 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Transferencia" />
+        <module name="sendEmail" />
+        <module name="MovimentacaoConta" />
+        <module name="CadastroCliente" />
+        <module name="RecargaCel" />
         <module name="Investimentos" />
         <module name="Eureka" />
         <module name="CadastroContaCorrente" />
-        <module name="MovimentacaoConta" />
-        <module name="CadastroCliente" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CadastroCliente" target="11" />
-      <module name="CadastroContaCorrente" target="11" />
-      <module name="Eureka" target="11" />
-      <module name="Investimentos" target="11" />
-      <module name="MovimentacaoConta" target="11" />
+      <module name="CadastroContaCorrente" target="1.5" />
+      <module name="Eureka" target="1.5" />
+      <module name="Investimentos" target="1.5" />
+      <module name="MovimentacaoConta" target="1.5" />
+      <module name="RecargaCel" target="11" />
+      <module name="sendEmail" target="11" />
+      <module name="Transferencia" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +35,9 @@
       <module name="Eureka" options="-parameters" />
       <module name="Investimentos" options="-parameters" />
       <module name="MovimentacaoConta" options="-parameters" />
+      <module name="RecargaCel" options="-parameters" />
+      <module name="Transferencia" options="-parameters" />
+      <module name="sendEmail" options="-parameters" />
     </option>
   </component>
 </project>
