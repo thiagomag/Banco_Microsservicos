@@ -1,6 +1,4 @@
 
-G
-CadastroCliente/HELP.md,6\1\61321020a1e15cbd35be408b3b0f2b77b2657a61
 
 QCadastroCliente/src/main/java/br/com/thiago/cadastrocliente/config/CepClient.java,1\9\1917fe0c807bd68cae47195869510a84b5268ce7
 ‡
@@ -21,30 +19,16 @@ PCadastroCliente/src/main/java/br/com/thiago/cadastrocliente/dto/EnderecoDto.jav
 _CadastroCliente/src/main/java/br/com/thiago/cadastrocliente/repository/ClientePJRepository.java,7\b\7bd069a3a1dbf21e9c8f6bba2ce4d8c582cd3b03
 
 _CadastroCliente/src/main/java/br/com/thiago/cadastrocliente/repository/ClientePFRepository.java,8\e\8e1e822c381d62edfcc329612b65c407d7e3fe0c
-M
-CadastroContaCorrente/HELP.md,c\f\cf555583e2384dec05e017b7c593dd63d9197c0a
 ‡
 WCadastroCliente/src/main/java/br/com/thiago/cadastrocliente/service/ClienteService.java,1\8\18748d37550d459c77d555b35cd244f2c82eee1d
-Œ
-\CadastroCliente/src/main/java/br/com/thiago/cadastrocliente/controller/ClienteControler.java,a\2\a26d4526b9cd97fe8f86e40551229bddcfef522b
->
-Eureka/HELP.md,d\4\d49928e6aea3a047e134d37b2d7ad98230f2f551
-I
-MovimentacaoConta/HELP.md,3\9\39bd1bb75bb22a4725597b317ea97337fa7185f3
-E
-Investimentos/HELP.md,d\3\d3504a68167061030d147605a91685284efe1871
 “
 cCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/config/SpringFoxConfig.java,0\f\0f3b4e7e235729419b70c916e034b46b58947136
 M
 CadastroContaCorrente/pom.xml,7\5\75a8edfd1bddc8a9c258a25eb9371c49e6f8ef78
 Ÿ
-oCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/controller/ContaCorrenteController.java,b\d\bd078e13639cc5bec742f91b0070f525b56d9f67
-Ÿ
 oCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/repository/ContaCorrenteRepository.java,6\5\653c7aa7ea0ca5eeb89dac47d6f37e8c19cfcab4
 ™
 iCadastroContaCorrente/src/main/java/br/com/thiago/cadastrocontacorrente/service/ContaCorrenteService.java,4\4\448bfda4d5aa7bff1be42d59951dcd1d636149b9
-I
-MovimentacaoConta/pom.xml,7\e\7e62ad7603f1ffeea19497cde141740d0b03d9f8
 ‹
 [MovimentacaoConta/src/main/java/br/com/thiago/movimentacaoconta/config/SpringFoxConfig.java,d\1\d1df54e676c6910608a448d83ba22261e1cba982
 ‰

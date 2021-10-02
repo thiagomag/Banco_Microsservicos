@@ -9,9 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Investimentos" />
         <module name="Eureka" />
-        <module name="CadastroCliente" />
         <module name="CadastroContaCorrente" />
         <module name="MovimentacaoConta" />
+        <module name="CadastroCliente" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
