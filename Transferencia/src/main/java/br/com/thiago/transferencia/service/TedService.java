@@ -24,6 +24,6 @@ public class TedService {
     }
 
     public boolean movimentacaoConta(TedDTO tedDTO){
-        return movimentacaoFeignClient.sacar(tedDTO.getValor(), tedDTO.getNumeroConta()) != null;
+        return movimentacaoFeignClient.transferencia(tedDTO.getValor(), tedDTO.getNumeroConta(), tedDTO.getContaDestino()) != null;
     }
 }

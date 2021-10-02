@@ -24,6 +24,6 @@ public class PixService {
     }
 
     public boolean movimentacaoConta(PixDTO pixDTO){
-        return movimentacaoFeignClient.sacar(pixDTO.getValor(), pixDTO.getNumeroConta()) != null;
+        return movimentacaoFeignClient.transferencia(pixDTO.getValor(), pixDTO.getNumeroConta(), pixDTO.getChavePix()) != null;
     }
 }

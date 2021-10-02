@@ -24,6 +24,6 @@ public class DocService {
     }
 
     public boolean movimentacaoConta(DocDTO docDTO){
-        return movimentacaoFeignClient.sacar(docDTO.getValor(), docDTO.getNumeroConta()) != null;
+        return movimentacaoFeignClient.transferencia(docDTO.getValor(), docDTO.getNumeroConta(), docDTO.getContaDestino()) != null;
     }
 }
