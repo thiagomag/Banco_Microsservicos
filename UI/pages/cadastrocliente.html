@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cadastrostyle.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section id="login" class="login-section">
+        <div class="container">
+            <header class="header">
+              <h1 id="title" class="text-center">Cadastre-se e aproveitar (ou não) as funcionalidades do banco!</h1>
+            </header>
+            <script src="../scripts/cadastrocliente.js"></script>
+            <form id="cadastro-form" onsubmit="cadastrarCliente()">
+                <label id="tipoconta-label" for="tipoconta">Selecione o tipo de pessoa:</label>
+                <div class="form-radio">
+                    <input
+                      type="radio"
+                      name="tipocontapf"
+                      id="tipocontapf"
+                      required
+                    />
+                    <label for="pf">Pessoa Fisíca</label>
+                </div>
+                <div class="form-radio">
+                    <input
+                      type="radio"
+                      name="tipocontapj"
+                      id="tipocontaoj"
+                      required
+                    />         
+                    <label for="pj">Pessoa Jurídica</label>           
+                </div>
+                <div class="form-group">
+                    <label id="doc-label" for="doc">CPF/CNPJ</label>
+                    <input
+                      type="number"
+                      name="doc"
+                      id="doc"
+                      class="form-control"
+                      placeholder="Digite sem pontos ou traços"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="nome-label" for="nome">Nome</label>
+                    <input
+                      type="text"
+                      name="nome"
+                      id="nome"
+                      class="form-control"
+                      placeholder="Digite seu Nome"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                  <label id="email-label" for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Digite seu Email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                    <label id="data-label" for="data">Data de Nascimento</label>
+                    <input
+                      type="date"
+                      name="data"
+                      id="data"
+                      class="form-control"
+                      placeholder="Digite seu Email"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="cep-label" for="cep">CEP</label>
+                    <input
+                      type="number"
+                      name="cep"
+                      id="cep"
+                      class="form-control"
+                      placeholder="Digite seu CEP sem pontos ou traços"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="tipoendereco-label" for="tipoendereco">Tipo endereço</label>
+                    <input
+                      type="text"
+                      name="tipoendereco"
+                      id="tipo"
+                      class="form-control"
+                      placeholder="Digite o tipo do seu endereço"
+                      list="tipoendereco"
+                      required
+                    />
+                    <datalist id="tipoendereco">
+                        <option value="RESIDENCIAL">
+                        <option value="COMERCIAL">
+                        <option value="OUTROS">
+                      </datalist>
+                </div>
+                <div class="form-group">
+                    <label id="password-label" for="password">Senha</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      class="form-control"
+                      placeholder="Digite sua Senha"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                      Cadastre-se
+                    </button>
+                  </div>
+            </form>
+          </div>         
+      </section>
+      
+</body>
+</html>
