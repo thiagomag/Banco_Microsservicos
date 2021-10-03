@@ -13,13 +13,25 @@
             <header class="header">
               <h1 id="title" class="text-center">Invista agora!</h1>
             </header>
-            <form id="survey-form">
+            <script src="../scripts/investimento.js"></script>
+            <form id="survey-form" onsubmit="investir()">
+              <div class="form-group">
+                    <label id="nconta-label" for="nconta">Digite o número da sua conta:</label>
+                    <input
+                      type="number"
+                      name="nconta"
+                      id="nconta"
+                      class="form-control"
+                      placeholder="Digite o número da sua conta"
+                      required
+                    />
+                </div>
                 <label id="investimento-label" for="investimento">Selecione o investimento:</label>
                 <div class="form-radio">
                     <input
                       type="radio"
-                      name="investimento"
-                      id="investimento"
+                      name="rendimento1"
+                      id="investimento1"
                       required
                     />
                     <label for="ruim">Investimento ruim que rende apenas 1%.</label>
@@ -27,8 +39,8 @@
                 <div class="form-radio">
                     <input
                       type="radio"
-                      name="investimento"
-                      id="investimento"
+                      name="rendimento10"
+                      id="rendimento10"
                       required
                     />         
                     <label for="bom">Investimento bom que rende 10%.</label>           

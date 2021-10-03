@@ -14,13 +14,25 @@
               <h1 id="title" class="text-center">Recarregue agora o seu celular!</h1>
               <p id="description" class="description text-center">O valor da recarga será descontado automaticamente do seu saldo</p>
             </header>
-            <form id="survey-form">
+            <script src="../scripts/recargacel.js"></script>
+            <form id="survey-form" onsubmit="recarga()">
               <div class="form-group">
-                <label id="celular-label" for="celular">Qual a sua operadora?</label>
+                <label id="nconta-label" for="nconta">Digite o número da sua conta:</label>
                 <input
                   type="text"
-                  name="celular"
-                  id="celular"
+                  name="nconta"
+                  id="nconta"
+                  class="form-control"
+                  placeholder="Digite o número da sua conta"
+                  required
+                />
+            </div>
+              <div class="form-group">
+                <label id="operadora-label" for="operadora">Qual a sua operadora?</label>
+                <input
+                  type="text"
+                  name="operadora"
+                  id="operadora"
                   class="form-control"
                   placeholder="Digite a sua operadora"
                   list="operadoras"

@@ -14,30 +14,41 @@
               <h1 id="title" class="text-center">Transferência via TED</h1>
               <p id="description" class="description text-center">insert description here..</p>
             </header>
-            <form id="survey-form">
-                <div class="form-group">
-                    <label id="nconta-label" for="nconta">Digite o número da conta:</label>
-                    <input
-                      type="number"
-                      name="nconta"
-                      id="nconta"
-                      class="form-control"
-                      placeholder="Digite o número da conta"
-                      required
-                    />
-                </div>
-                <div class="form-group">
-                  <label id="agencia-label" for="agencia">Digite o número da agência:</label>
-                  <input
-                    type="number"
-                    name="agencia"
-                    id="celular"
-                    class="form-control"
-                    placeholder="Digite o número da agência"
-                    required
-                  />
-                </div>
-                <div class="form-group">
+            <script src="../scripts/ted.js"></script>
+            <form id="survey-form" onsubmit="transferir()">
+              <div class="form-group">
+                <label id="nconta-label" for="nconta">Digite o número da sua conta:</label>
+                <input
+                  type="text"
+                  name="nconta"
+                  id="nconta"
+                  class="form-control"
+                  placeholder="Digite o número da sua conta"
+                  required
+                />
+            </div>
+            <div class="form-group">
+                <label id="ncontadestino-label" for="ncontadestino">Digite o número da conta de destino:</label>
+                <input
+                  type="text"
+                  name="ncontadestino"
+                  id="ncontadestino"
+                  class="form-control"
+                  placeholder="Digite o número da conta de destino"
+                  required
+                />
+            </div>
+            <div class="form-group">
+              <label id="agencia-label" for="agencia">Digite o número da agência:</label>
+              <input
+                type="number"
+                name="agencia"
+                id="agencia"
+                class="form-control"
+                placeholder="Digite seu número"
+                required
+              />
+            </div>
                     <label id="valor-label" for="valor">Quanto você quer transferir?</label>
                     <input
                       type="number"
